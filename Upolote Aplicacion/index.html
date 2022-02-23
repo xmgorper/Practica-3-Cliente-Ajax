@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<!-- Enlaces a bootstrap-->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		body {
+			margin-left: 10px;
+		}
+
+		/*    
+    	form {
+            display: none;
+        }
+	*/
+    .navbar-default {
+    background-color: #f0d16e;
+}
+
+.navbar{
+	height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+	margin-top: 10px;
+}
+
+		#formularios {
+			margin-top: 60px;
+		}
+
+		.navbar-default .navbar-brand {
+    color: black;
+}
+
+
+
+	</style>
+	<title>UPOLOTE</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		
+		<div class="container-fluid">
+			<a class="navbar-brand">
+				<img src="botella.png" alt="logo" class="img-fluid" width="40px" height="40px">
+			</a>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html" style="font-weight:bold;color:rgb(214, 119, 30);margin-top: 10px;font-family: Copperplate, Copperplate Gothic Light, fantasy;">UPOLOTE</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" id="mnuAltaProducto">Alta Producto</a>
+				</li>
+				<li>
+					<a href="#" id="mnuAltaCliente">Alta Cliente</a>
+				</li>
+				<li>
+					<a href="#" id="mnuBajaCliente">Baja Cliente</a>
+				</li>
+				<li>
+					<a href="#" id="mnuAltaRepartidor">Alta Repartidor</a>
+				</li>
+				<li>
+					<a href="#" id="mnuAltaPedido">Alta Pedido</a>
+				</li>
+				<li>
+					<a href="#" id="mnuCancelarPedido">Cancelar Pedido</a>
+				</li>
+				<li class="btn-group">
+					<br>
+						<button type="button" class="btn btn-warning dropdown-toggle"
+								data-toggle="dropdown">
+						  Listados <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+						  <li><a href="#" id="mnuListaClientes">Clientes</a></li>
+						  <li><a href="#" id="mnuListaRepartidores">Repartidores</a></li>
+						  <li><a href="#" id="mnuListaProductos">Productos</a></li>
+						  <li class="divider"></li>
+						  <li><a href="#" id="mnuListaPedidos">Pedidos por Fecha</a></li>
+						</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</nav>
+
+
+	
+	<div class="container" id="formularios" style="margin-top: 80px;">
+		<div class="row">
+
+			
+
+	
+
+			
+			
+		</div>
+	</div>
+
+	<div class="container" id="listados" style="margin-top: 80px;">
+		<div class="row">
+
+			
+
+	
+
+			
+			
+		</div>
+	</div>
+    <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
